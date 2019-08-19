@@ -45,7 +45,7 @@ html{
   
 
   
-  nav>a{
+  nav a{
     text-decoration: none;
   }
   
@@ -55,8 +55,9 @@ html{
     grid-template-columns: auto auto auto;
   }
   
-  .grid-Item{
-      align-content: center;
+  .grid-Item img{
+      display:block;
+      margin:auto;
   }
   
   
