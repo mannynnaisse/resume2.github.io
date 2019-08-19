@@ -1,0 +1,86 @@
+html{
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    background-color:aliceblue;
+  }
+  
+  .menu-Title{
+    display:inline;
+  }
+  
+  #hamburger-Icon{
+    width:30px;
+    height:30px;
+  }
+  
+  .menu{
+    display:grid;
+  }
+  
+  h1{
+    padding: 15px;
+    border-style: dashed;
+    background-color: lightblue;
+    text-align: center;
+  }
+  
+  nav{
+   background-color: white;
+   padding:15px;
+   margin-bottom: 15px;
+   display: block;
+   position: sticky;
+   top:0%;
+  }
+  
+  nav ul {
+    display: none;
+  }
+  
+  nav:hover ul{
+    display:flex;
+    justify-content: space-between;
+  }
+  
+  
+
+  
+  nav>a{
+    text-decoration: none;
+  }
+  
+  
+  .grid-Container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  
+  .grid-Item{
+      align-content: center;
+  }
+  
+  
+  ul{
+    list-style: none;
+  }
+  
+  .diploma{
+      width: 300px;
+     height:300px;
+  }
+  
+  
+  .cmwPic{
+     width:640px;
+    height:360px;
+  }
+  
+  .profile{
+    width:145px;
+    height:201px;
+  }
+  
+  
+  
+  
+  
