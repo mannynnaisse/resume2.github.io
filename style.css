@@ -41,10 +41,7 @@ html{
     display:flex;
     justify-content: space-between;
   }
-  
-  
 
-  
   nav a{
     text-decoration: none;
   }
@@ -54,6 +51,8 @@ html{
     display: grid;
     grid-template-columns: auto auto auto;
     overflow:auto;
+    column-gap: 20px;
+    row-gap: 20px;
   }
 
   .grid-Item{
@@ -94,10 +93,14 @@ html{
   }
 
 
-  .grid-Item ul,h2{
+  .grid-Item{
     background-color: white;
     border-radius: 20px;
     padding:15px;
     align-content: center;
   }
+  
+
+  
+  
   
